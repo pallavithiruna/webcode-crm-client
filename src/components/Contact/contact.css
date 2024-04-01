@@ -1,0 +1,15 @@
+.addcontact{
+    position:absolute;
+    bottom:20%;
+    left:50%;
+    width:auto;
+    padding:10px;
+}
+i{
+    margin-right: 10px;
+}
+.table-position{
+    position:absolute;
+    left:40%;
+    top:20%;
+}

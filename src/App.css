@@ -1,0 +1,91 @@
+/* .App {
+    text-align: center;
+  } */
+  *{
+    text-decoration: none;
+  }
+  .background{
+    background-image: url("https://images.unsplash.com/photo-1556740714-a8395b3bf30f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  } 
+  p Link{
+    text-decoration: none;
+  }
+  .sign-up-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .login-up-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .sign-up-form{
+    width: 400px;
+    padding:20px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  label{
+    display:block;
+    margin-bottom: 8px;
+    color:#2980b9;
+    font-weight: 600;
+  }
+  input{
+    width:100%;
+    padding:8px;
+    box-sizing: border-box;
+  }
+  .input{
+    margin-bottom:16px;
+  }
+  select{
+    width:100%;
+    padding:8px;
+    box-sizing: border-box; 
+  }
+  .button{
+    width:100%;
+    margin-top:15px;
+    padding:10px;
+    background-color: #3498db;
+    border:#2980b9;
+    color:#fff;
+    border-radius:4px;
+    cursor:pointer;
+  }
+  .button:hover{
+    /* background-color: #2980b9; */
+    background-color:#fff ;
+    color:#2980b9;
+    border: 1px solid #2980b9;
+  }
+  .heading-main-page{
+    color:#4ed4e6;
+    position:absolute;
+    top:1%;
+    left:20%;
+    right:20%;
+  }
+  .heading-main-page-login{
+    color:#4ed4e6;
+    position:absolute;
+    top: 10%;
+    left:20% ;
+    right:20%;
+  }
+
+.about{
+  position: absolute;
+  left: 20%;
+  top:20%;
+  text-align: center;
+}

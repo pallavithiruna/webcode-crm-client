@@ -1,0 +1,9 @@
+@media screen and (max-width:800px){
+    .styleImg{
+        width: 300px;
+    }
+}
+.home-layout{
+    position:absolute;
+    margin-left: 16%;
+}

@@ -1,0 +1,14 @@
+.space-font{
+    font-size: 17px;
+}
+i{
+    font-size: 10px;
+} 
+.sidenav ul {
+   padding:0px !important
+}
+
+.sidenav ul li :hover{
+    background-color: rgb(188, 188, 209);
+   
+};
