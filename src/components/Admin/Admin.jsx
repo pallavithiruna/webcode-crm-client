@@ -47,7 +47,7 @@ const Admin = () => {
            />
           <button className='button' type='submit'>Login</button>
           <p>admin:latha@gmail.com/latha123</p>
-          <p>manager:reka@gmail.com/latha123</p>
+          <p>manager:reka@gmail.com/reka123</p>
         
       </form>
     </div>

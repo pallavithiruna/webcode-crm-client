@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import '../App.css'
+import toast from 'react-hot-toast'
 
 
 import Axios from 'axios';
@@ -25,6 +26,7 @@ const handleSubmit=(e)=>{
   .then(res=>{
     if(res.data.status){
       // alert("login successfull")
+      toast.success("Logged in successfully")
       navigate('/home')
     //  {<Navigate to="/home"/>}
     }
