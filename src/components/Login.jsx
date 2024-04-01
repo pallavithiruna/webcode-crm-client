@@ -1,8 +1,9 @@
 import React,{useState} from 'react'
 import '../App.css'
 
+
 import Axios from 'axios';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 // import Background from '../assets/crm.jpg';
 
 function Login() {
@@ -24,7 +25,8 @@ const handleSubmit=(e)=>{
   .then(res=>{
     if(res.data.status){
       alert("login successfull")
-      navigate('/home')
+      // navigate('/home')
+     {<Navigate to="/home"/>}
     }
     else{
       alert('User does not exist! Register to Login')
