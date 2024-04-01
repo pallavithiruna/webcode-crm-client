@@ -30,8 +30,8 @@ function App() {
     <Route  path="/"    element={<Login/>} />
     <Route  path="/forgotpassword"    element={<ForgotPassword/>} />
     <Route  path="/resetpassword/:token"    element={<ResetPassword/>} />
-    {/* <Route  path="/home" element={<Protectedroute><Dashboard><Home/></Dashboard></Protectedroute>} /> */}
-    <Route path="/home" element={<Dashboard><Home/></Dashboard>}> </Route>
+    <Route  path="/home" element={<Protectedroute><Dashboard><Home/></Dashboard></Protectedroute>} />
+    {/* <Route path="/home" element={<Dashboard><Home/></Dashboard>}> </Route> */}
     <Route  path="/header" element={<Header/>} />
     <Route  path="/sidenav" element={<Sidenav/>}   />
     <Route path="/admin" element={<Protectedroute><Dashboard><Admin/></Dashboard></Protectedroute>}/>
@@ -52,12 +52,12 @@ function App() {
 
 export default App
 
-// function Protectedroute({children}){
-//   const token=cookie.get("token");
-//   console.log(token)
-//   return(
-//     <>
-//     {token?children : <Navigate to="/"/> }
-//     </>
-//   )
-// }
+function Protectedroute({children}){
+  const token=cookie.get("token");
+  console.log(token)
+  return(
+    <>
+    {token?children : <Navigate to="/"/> }
+    </>
+  )
+}
