@@ -25,8 +25,8 @@ const handleSubmit=(e)=>{
   })
   .then(res=>{
     if(res.data.status){
-      // alert("login successfull")
-      toast.success("Logged in successfully")
+      alert("login successfull")
+      // toast.success("Logged in successfully")
       navigate('/home')
     //  {<Navigate to="/home"/>}
     }
