@@ -25,12 +25,13 @@ const handleSubmit=(e)=>{
   .then(res=>{
     if(res.data.status){
       alert("login successfull")
-      navigate('/home')
+      navigate('/')
     }
     else{
       alert('User does not exist! Register to Login')
     }
-    console.log(res)})
+    console.log(res)
+  })
   .catch(err=>{console.log(err)})
 }
   return (
