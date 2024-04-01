@@ -24,7 +24,7 @@ const handleSubmit=(e)=>{
   })
   .then(res=>{
     if(res.data.status){
-      alert("login successfull")
+      // alert("login successfull")
       navigate('/home')
     //  {<Navigate to="/home"/>}
     }
