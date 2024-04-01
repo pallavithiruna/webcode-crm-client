@@ -6,7 +6,6 @@ import { Link, useNavigate } from 'react-router-dom';
 // import Background from '../assets/crm.jpg';
 
 function Login() {
-
 //  const[username,setUsername]=useState('');
  const[email,setEmail]=useState('');
  const[password,setPassword]=useState('');
