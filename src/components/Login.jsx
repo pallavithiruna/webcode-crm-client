@@ -25,8 +25,8 @@ const handleSubmit=(e)=>{
   .then(res=>{
     if(res.data.status){
       alert("login successfull")
-      // navigate('/home')
-     {<Navigate to="/home"/>}
+      navigate('/home')
+    //  {<Navigate to="/home"/>}
     }
     else{
       alert('User does not exist! Register to Login')
