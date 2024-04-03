@@ -7,7 +7,7 @@ useEffect(()=>{
 axios.get('https://webcode-crm-server.onrender.com/auth/getAllUser')
 .then(res=>{
      setUsers(res.data)
-     console.log(res.data)
+    //  console.log(res.data)
     
 })
 .catch(err=>{

@@ -30,7 +30,8 @@ function Addcontact() {
      else{
        alert("Please fill all the details")
      }
-     console.log(res)})
+    //  console.log(res)
+    })
    .catch(err=>{console.log(err)
     alert("Please fill the form correctly")})
  }

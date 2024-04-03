@@ -1,14 +1,14 @@
 import React,{useState} from 'react'
 import '../App.css'
-import toast from 'react-hot-toast'
+
 
 
 import Axios from 'axios';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
-// import Background from '../assets/crm.jpg';
+
 
 function Login() {
-//  const[username,setUsername]=useState('');
+
  const[email,setEmail]=useState('');
  const[password,setPassword]=useState('');
 
@@ -26,14 +26,12 @@ const handleSubmit=(e)=>{
   .then(res=>{
     if(res.data.status){
       alert("login successfull")
-      // toast.success("Logged in successfully")
       navigate('/home')
-    //  {<Navigate to="/home"/>}
     }
     else{
       alert('User does not exist! Register to Login')
     }
-    console.log(res)
+    // console.log(res)
   })
   .catch(err=>{console.log(err)})
 }
