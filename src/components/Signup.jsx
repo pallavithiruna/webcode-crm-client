@@ -29,9 +29,9 @@ const handleSubmit=(e)=>{
     if(res.data.status){
       navigate('/')
     }
-    else{
-      alert("Please fill all the details")
-    }
+    // else{
+    //   alert("Please fill all the details")
+    // }
     // console.log(res)
   })
   .catch(err=>{console.log(err)
